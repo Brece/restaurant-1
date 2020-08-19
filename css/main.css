@@ -1,21 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.btn-1,
+.btn-2 {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px 44px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #cea124;
+  border-radius: 5px;
+  outline: none;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  cursor: pointer;
+  background: #cea124;
+}
+
+.btn-1 {
+  color: #fff;
+}
+
+.btn-2 {
+  color: #000;
+}
+
+.btn-2:hover {
+  color: #fff;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Playfair Display", serif;
 }
 
-body .content-container {
+.content-container {
   width: 90vw;
   margin: 0 auto;
 }
 
-body .content-container header {
+.content-container header {
   width: 100%;
   height: 242px;
 }
 
-body .content-container header .contacts {
+.content-container header .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,24 +62,24 @@ body .content-container header .contacts {
           align-items: center;
 }
 
-body .content-container header .contacts .address,
-body .content-container header .contacts .logo,
-body .content-container header .contacts .socials {
+.content-container header .contacts .address,
+.content-container header .contacts .logo,
+.content-container header .contacts .socials {
   max-width: 300px;
 }
 
-body .content-container header .contacts .address {
+.content-container header .contacts .address {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-body .content-container header .contacts .address p {
+.content-container header .contacts .address p {
   line-height: 1.2rem;
   color: #939396;
 }
 
-body .content-container header .contacts .address p a {
+.content-container header .contacts .address p a {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 300;
@@ -55,11 +89,11 @@ body .content-container header .contacts .address p a {
   transition: all 0.2s ease-in-out;
 }
 
-body .content-container header .contacts .address p a:hover {
+.content-container header .contacts .address p a:hover {
   color: #3535d8;
 }
 
-body .content-container header .contacts .logo {
+.content-container header .contacts .logo {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -67,7 +101,7 @@ body .content-container header .contacts .logo {
   background: url(/img/restaurant-logo.jpg) center/cover no-repeat;
 }
 
-body .content-container header .contacts .socials {
+.content-container header .contacts .socials {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -82,13 +116,13 @@ body .content-container header .contacts .socials {
           align-items: center;
 }
 
-body .content-container header .contacts .socials .icon-container {
+.content-container header .contacts .socials .icon-container {
   width: 50px;
   height: 50px;
   position: relative;
 }
 
-body .content-container header .contacts .socials .icon-container .icon {
+.content-container header .contacts .socials .icon-container .icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -111,31 +145,31 @@ body .content-container header .contacts .socials .icon-container .icon {
   transition: all 0.3s ease-in-out;
 }
 
-body .content-container header .contacts .socials .icon-container .icon:hover {
+.content-container header .contacts .socials .icon-container .icon:hover {
   width: 90%;
   height: 90%;
   border: 1px solid #3535d8;
   color: #3535d8;
 }
 
-body .content-container header .contacts .socials .icon-container .icon:hover i {
+.content-container header .contacts .socials .icon-container .icon:hover i {
   color: #262630;
   font-size: 1.4rem;
 }
 
-body .content-container header .contacts .socials .icon-container .icon i {
+.content-container header .contacts .socials .icon-container .icon i {
   color: #939396;
   font-size: 1rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-body .content-container header #navbar {
+.content-container header #navbar {
   width: 100%;
   height: 60px;
 }
 
-body .content-container header #navbar .sections {
+.content-container header #navbar .sections {
   margin: 0 auto;
   width: 45%;
   line-height: 60px;
@@ -152,7 +186,7 @@ body .content-container header #navbar .sections {
   text-transform: capitalize;
 }
 
-body .content-container header #navbar .sections li {
+.content-container header #navbar .sections li {
   position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -163,19 +197,19 @@ body .content-container header #navbar .sections li {
   transition: all 0.5s ease;
 }
 
-body .content-container header #navbar .sections li:hover {
+.content-container header #navbar .sections li:hover {
   border-bottom: 2px solid #cea124;
 }
 
-body .content-container header #navbar .sections li:hover a {
+.content-container header #navbar .sections li:hover a {
   color: #cea124;
 }
 
-body .content-container header #navbar .sections li:hover .sub-menu {
+.content-container header #navbar .sections li:hover .sub-menu {
   display: block;
 }
 
-body .content-container header #navbar .sections li a {
+.content-container header #navbar .sections li a {
   font-weight: 500;
   color: #262630;
   text-decoration: none;
@@ -183,32 +217,32 @@ body .content-container header #navbar .sections li a {
   transition: all 0.5s ease;
 }
 
-body .content-container header #navbar .sections li .sub-menu {
+.content-container header #navbar .sections li .sub-menu {
   display: none;
   position: absolute;
   background: #fff;
   z-index: 6;
 }
 
-body .content-container header #navbar .sections li .sub-menu .drinks {
+.content-container header #navbar .sections li .sub-menu .drinks {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-body .content-container header #navbar .sections li .sub-menu .drinks .drink-menu {
+.content-container header #navbar .sections li .sub-menu .drinks .drink-menu {
   display: none;
   position: absolute;
   background: #fff;
   z-index: 6;
 }
 
-body .content-container header #navbar .sections li .sub-menu .drinks .drink-menu:hover {
+.content-container header #navbar .sections li .sub-menu .drinks .drink-menu:hover {
   display: block;
   right: -220px;
   top: 0;
 }
 
-body .content-container header #navbar .sections li .sub-menu li {
+.content-container header #navbar .sections li .sub-menu li {
   width: 200px;
   text-align: left;
   padding-left: 20px;
@@ -216,32 +250,33 @@ body .content-container header #navbar .sections li .sub-menu li {
   border-bottom: 1px solid rgba(147, 147, 150, 0.377);
 }
 
-body .content-container header #navbar .sections li .sub-menu li a {
+.content-container header #navbar .sections li .sub-menu li a {
   color: #000;
 }
 
-body .content-container header #navbar .sections li .sub-menu li:hover a {
+.content-container header #navbar .sections li .sub-menu li:hover a {
   color: #3535d8;
 }
 
-body .content-container header #navbar .sections .active {
+.content-container header #navbar .sections .active {
   border-bottom: 2px solid #cea124;
 }
 
-body .content-container header #navbar .sections .active a {
+.content-container header #navbar .sections .active a {
   color: #cea124;
 }
 
-body .content-container .slider {
+.content-container #slider {
   position: relative;
+  height: calc(100vh - 242px);
 }
 
-body .content-container .slider .bg-container {
+.content-container #slider .bg-container {
   position: absolute;
   overflow: hidden;
   left: -5vw;
   right: -5vw;
-  height: calc(100vh - 260px);
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,7 +291,7 @@ body .content-container .slider .bg-container {
   transition: all 0.5s ease-in-out;
 }
 
-body .content-container .slider .bg-container::before {
+.content-container #slider .bg-container::before {
   content: "";
   display: block;
   position: absolute;
@@ -269,7 +304,7 @@ body .content-container .slider .bg-container::before {
   z-index: 2;
 }
 
-body .content-container .slider .bg-container .arr-container {
+.content-container #slider .bg-container .arr-container {
   position: relative;
   width: 6rem;
   height: 3rem;
@@ -277,8 +312,8 @@ body .content-container .slider .bg-container .arr-container {
   transition: all 1s ease-in-out;
 }
 
-body .content-container .slider .bg-container .arr-container .arrow-left,
-body .content-container .slider .bg-container .arr-container .arrow-right {
+.content-container #slider .bg-container .arr-container .arrow-left,
+.content-container #slider .bg-container .arr-container .arrow-right {
   position: absolute;
   width: 3rem;
   height: 3rem;
@@ -291,74 +326,130 @@ body .content-container .slider .bg-container .arr-container .arrow-right {
   transition: all 0.5s ease-in-out;
 }
 
-body .content-container .slider .bg-container .arr-container .arrow-left:hover,
-body .content-container .slider .bg-container .arr-container .arrow-right:hover {
+.content-container #slider .bg-container .arr-container .arrow-left:hover,
+.content-container #slider .bg-container .arr-container .arrow-right:hover {
   background: rgba(0, 0, 0, 0.363);
   cursor: pointer;
 }
 
-body .content-container .slider .bg-container .arr-container .arrow-left i,
-body .content-container .slider .bg-container .arr-container .arrow-right i {
+.content-container #slider .bg-container .arr-container .arrow-left i,
+.content-container #slider .bg-container .arr-container .arrow-right i {
   padding: 0.7rem 0;
   font-size: 1.6rem;
   color: #fff;
 }
 
-body .content-container .slider .bg-container .arr-container .arrow-left {
+.content-container #slider .bg-container .arr-container .arrow-left {
   right: 0;
 }
 
-body .content-container .slider .bg-container .arr-container .arrow-right {
+.content-container #slider .bg-container .arr-container .arrow-right {
   left: 0;
 }
 
-body .content-container .slider .bg-container .heading {
+.content-container #slider .bg-container .heading {
   z-index: 5;
   text-align: center;
 }
 
-body .content-container .slider .bg-container .heading h2 {
+.content-container #slider .bg-container .heading h2 {
   font-size: 3rem;
   color: #fff;
   text-transform: capitalize;
   margin: 20px 0;
 }
 
-body .content-container .slider .bg-container .heading p {
+.content-container #slider .bg-container .heading p {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.76);
   margin: 20px 0;
 }
 
-body .content-container .slider .bg-container .heading .button .btn {
-  font-family: inherit;
-  font-size: 1.2rem;
-  padding: 12px 35px;
-  margin: 0 5px;
-  text-transform: capitalize;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.041);
-  border: 2px solid #cea124;
-  border-radius: 5px;
-  outline: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-body .content-container .slider .bg-container .heading .button .btn:hover {
-  cursor: pointer;
-  background: #cea124;
-}
-
-body .content-container .slider .bg-container:hover .arrow-left {
+.content-container #slider .bg-container:hover .arrow-left {
   -webkit-transform: translateX(-3rem);
           transform: translateX(-3rem);
   opacity: 1;
 }
 
-body .content-container .slider .bg-container:hover .arrow-right {
+.content-container #slider .bg-container:hover .arrow-right {
   -webkit-transform: translateX(3rem);
           transform: translateX(3rem);
   opacity: 1;
+}
+
+.content-container #options {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.content-container #options .option-container {
+  position: absolute;
+  top: -56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 5;
+}
+
+.content-container #options .option-container .option {
+  width: 30%;
+  margin: 0 15px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.content-container #options .option-container h3 {
+  font-size: 1rem;
+  background: #cea124;
+  border-radius: 3px 3px 0 0;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content-container #options .option-container h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content-container #options .option-container .option-bg {
+  height: 180px;
+  width: 100%;
+  margin-top: 1px;
+}
+
+.content-container #options .option-container .opt-1 {
+  background: url("/img/option-1.jpeg") no-repeat center center;
+}
+
+.content-container #options .option-container .opt-2 {
+  background: url("/img/option-2.jpeg") no-repeat center center;
+}
+
+.content-container #options .option-container .opt-3 {
+  background: url("/img/option-3.jpeg") no-repeat center center;
+}
+
+.content-container #options .option-container .option-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.content-container #options .option-container .option-content p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.content-container #options .option-container .option-content .btn {
+  color: #000;
+}
+
+.content-container #options .option-container .option-content .btn:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
