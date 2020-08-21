@@ -3,6 +3,7 @@
 .btn-2 {
   font-family: inherit;
   font-size: 1rem;
+  font-weight: 600;
   padding: 10px 44px;
   margin: 0 5px;
   text-transform: capitalize;
@@ -286,7 +287,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: url(/img/bg-1.jpeg) center/cover no-repeat;
-  overflow: visible;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -379,7 +379,7 @@ body {
 
 .content-container #options {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   position: relative;
 }
 
@@ -416,22 +416,22 @@ body {
   text-decoration: none;
 }
 
-.content-container #options .option-container .option-bg {
-  height: 180px;
-  width: 100%;
+.content-container #options .option-container .img {
+  height: 170px;
   margin-top: 1px;
+  border-radius: 0;
 }
 
 .content-container #options .option-container .opt-1 {
-  background: url("/img/option-1.jpeg") no-repeat center center;
+  background: url("/img/option-1.jpeg") center/cover no-repeat;
 }
 
 .content-container #options .option-container .opt-2 {
-  background: url("/img/option-2.jpeg") no-repeat center center;
+  background: url("/img/option-2.jpeg") center/cover no-repeat;
 }
 
 .content-container #options .option-container .opt-3 {
-  background: url("/img/option-3.jpeg") no-repeat center center;
+  background: url("/img/option-3.jpeg") center/cover no-repeat;
 }
 
 .content-container #options .option-container .option-content {
@@ -443,6 +443,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.76);
 }
 
 .content-container #options .option-container .option-content .btn {
@@ -451,5 +452,134 @@ body {
 
 .content-container #options .option-container .option-content .btn:hover {
   color: #fff;
+}
+
+.content-container #info {
+  position: relative;
+  height: 60vh;
+}
+
+.content-container #info .info-container {
+  position: absolute;
+  overflow: hidden;
+  left: -5vw;
+  right: -5vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #142850;
+}
+
+.content-container #info .info-container .info-content {
+  width: 40%;
+  margin: 0 4vw;
+  padding: 35px 20px;
+  color: #fff;
+  z-index: 5;
+}
+
+.content-container #info .info-container .info-content h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.content-container #info .info-container .info-content p {
+  color: rgba(255, 255, 255, 0.76);
+  margin: 40px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.content-container #info .info-container .info-content .btn-1 {
+  margin: 0 10px 0 0;
+}
+
+.content-container #info .info-container .info-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 50%;
+  background: url(/img/info-1.png) center/contain no-repeat;
+}
+
+.content-container #news {
+  width: 100%;
+  height: 60vh;
+}
+
+.content-container #news .articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-container #news .articles .article {
+  width: 28%;
+}
+
+.content-container #news .articles .article .art-1 {
+  background-image: url(/img/option-2.jpeg);
+}
+
+.content-container #news .articles .article .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0;
+}
+
+.heading {
+  text-align: center;
+  margin: 65px;
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cea124;
+}
+
+.img {
+  width: 100%;
+  height: 220px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.h3-head {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.para {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.76);
+  line-height: 1.5;
+}
+
+.span {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.76);
 }
 /*# sourceMappingURL=main.css.map */
