@@ -524,11 +524,28 @@ body {
         .event-content {
           width: 60%;
 
-          .time-frame{
+          .time-frame {
             color: rgb(206, 161, 36);
           }
         }
       }
+    }
+  }
+
+  #contacts {
+    position: relative;
+    height: 70vh;
+
+    .contacts-bg {
+      position: absolute;
+      overflow: hidden;
+      left: -5vw;
+      right: -5vw;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #142850;
     }
   }
 }
