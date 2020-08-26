@@ -16,7 +16,7 @@
   <body>
     <div class="content-container">
       <!-- start HEADER -->
-      <header>
+      <header class="width-container">
         <div class="contacts">
           <section class="address">
             <p>
@@ -109,7 +109,7 @@
       <!-- end BG-SLIDER -->
 
       <!-- start OPTIONS -->
-      <section id="options">
+      <section class="width-container" id="options">
         <div class="option-container">
           <div class="option">
             <h3>
@@ -165,25 +165,25 @@
       <!-- start INFO -->
       <section id="info">
         <div class="info-container">
-          <div class="info-content">
-            <h2>
-              Everything you need to know about US.
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga
-              architecto soluta excepturi obcaecati facilis iste, cum officiis
-              hic itaque ut eaque, illum quas?
-            </p>
-            <button type="button" class="btn-1">about</button>
-            <button type="button" class="btn-1">reservations</button>
+          <div class="width-container">
+            <div class="info-content">
+              <h2>Everything you need to know about US.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                fuga architecto soluta excepturi obcaecati facilis iste, cum
+                officiis hic itaque ut eaque, illum quas?
+              </p>
+              <button type="button" class="btn-1">about</button>
+              <button type="button" class="btn-1">reservations</button>
+            </div>
+            <div class="info-img"></div>
           </div>
-          <div class="info-img"></div>
         </div>
       </section>
       <!-- end INFO -->
 
       <!-- start NEWS -->
-      <section id="news">
+      <section class="width-container" id="news">
         <div class="heading">
           <h2>Recent news</h2>
         </div>
@@ -242,7 +242,7 @@
       <!-- end NEWS -->
 
       <!-- start EVENTS -->
-      <section id="events">
+      <section class="width-container" id="events">
         <div class="heading">
           <h2>Events</h2>
         </div>
@@ -290,13 +290,15 @@
       <!-- start CONTACTS -->
       <section id="contacts">
         <div class="contacts-bg">
-          <div class="contacts-container">
-            <div class="booking contact">
-              <h4 class="h4-head">Make a Reservation Online</h4>
-              <p class="para">
-                Book a table online by using our online reservation form.
-              </p>
-              <button type="button" class="btn-1">Reservation</button>
+          <div class="contacts-container width-container">
+            <div class="booking-bg contact">
+              <div class="booking">
+                <h4 class="h4-head">Make a Reservation Online</h4>
+                <p class="para">
+                  Book a table online by using our online reservation form.
+                </p>
+                <button type="button" class="btn-1">Reservation</button>
+              </div>
             </div>
 
             <div class="opening contact">
@@ -339,10 +341,40 @@
 
             <div class="about contact">
               <h4 class="h4-head">About Us</h4>
-              <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus maxime voluptate velit, praesentium accusamus reiciendis suscipit minus? Eius accusamus animi ea nemo!</p>
-              <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vitae odit tenetur reiciendis quisquam adipisci enim in rem, non eaque?</p>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus voluptatibus maxime voluptate velit, praesentium
+                accusamus reiciendis suscipit minus? Eius accusamus animi ea
+                nemo!
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                vitae odit tenetur reiciendis quisquam adipisci enim in rem, non
+                eaque?
+              </p>
               <button type="button" class="btn-1">about us</button>
             </div>
+          </div>
+
+          <div class="quick-links">
+            <nav id="quick">
+              <ul class="sections">
+                <li><a href="#">Home</a></li>
+                <p>-</p>
+                <li><a href="#">Menu</a></li>
+                <p>-</p>
+                <li><a href="#">Events</a></li>
+                <p>-</p>
+                <li><a href="#">Gallery</a></li>
+                <p>-</p>
+                <li><a href="#">Blog</a></li>
+                <p>-</p>
+                <li><a href="#">Reservations</a></li>
+              </ul>
+            </nav>
+
+            <p class="para">Copyright © 2020 Web Developer.</p>
+
           </div>
         </div>
       </section>
