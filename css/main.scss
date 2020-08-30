@@ -714,17 +714,6 @@ body {
 }
 
 // ====================== MEDIA QUERIES =====================
-/* Extra small devices (phones, 600px and down) */
-// @media only screen and (max-width: 600px) {
-// }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-// @media only screen and (min-width: 600px) {
-// }
-
-/* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {
-// }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (max-width: 1024px) {
@@ -793,5 +782,114 @@ body {
     }
   }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-//  @media only screen and (min-width: 1200px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .content-container {
+    header {
+      height: 300px;
+      .contacts {
+        height: 238px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        .address,
+        .logo,
+        .socials {
+          width: 300px;
+          flex: 0;
+        }
+        .address {
+          text-align: center;
+        }
+      }
+    }
+
+    #options {
+      height: 142vh;
+      .option-container {
+        .option {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    #info {
+      height: 95vh;
+
+      .info-container {
+        .width-container {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .info-content,
+          .info-img {
+            width: 85%;
+            height: 35%;
+            flex: none;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    #news {
+      height: 175vh;
+      .articles {
+        .article {
+          width: 100%;
+          margin-bottom: 65px;
+          text-align: center;
+        }
+      }
+    }
+
+    #events {
+      height: 125vh;
+      .events-container {
+        &:nth-last-child(1) .event {
+          flex-direction: column-reverse;
+        }
+        .event {
+          flex-direction: column;
+          text-align: center;
+          .event-1,
+          .event-2,
+          .event-content {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    #contacts {
+      height: 170vh;
+      // justify-content: space-evenly;
+      .contact {
+        width: 100%;
+        height: 380px;
+        margin: 35px;
+
+        &:nth-last-child(1) {
+          margin-top: 6%;
+        }
+      }
+    }
+  }
+  .button-container {
+    flex-direction: column;
+    .span,
+    btn-2 {
+      margin: 15px 0;
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {
+// }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+// }
