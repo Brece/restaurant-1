@@ -1,4 +1,14 @@
-#events .heading {
-  background: #3535d8;
+body .content-container #events .heading {
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  margin: 0;
+  left: -10vw;
+  background: #142850;
+}
+
+body .content-container #events .heading h2 {
+  color: #fff;
+  padding: 60px 0;
 }
 /*# sourceMappingURL=events.css.map */

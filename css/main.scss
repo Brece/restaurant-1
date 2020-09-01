@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 // extended css files
-@use "events";
 
 
 .btn-1,
@@ -230,6 +229,7 @@ body {
   // start BG-SLIDER
   #slider {
     position: relative;
+    min-height: 500px;
     height: calc(100vh - 242px);
 
     .bg-container {
@@ -332,7 +332,7 @@ body {
   // start OPTIONS
   #options {
     width: 100%;
-    height: 60vh;
+    height: 586px;
     position: relative;
 
     .option-container {
@@ -407,7 +407,7 @@ body {
   // start INFO
   #info {
     position: relative;
-    height: 60vh;
+    height: 586px;
 
     .info-container {
       position: absolute;
@@ -461,7 +461,7 @@ body {
 
   #news {
     width: 100%;
-    height: 75vh;
+    height: 733px;
 
     .articles {
       display: flex;
@@ -486,7 +486,7 @@ body {
   }
 
   #events {
-    height: 75vh;
+    height: 733px;
 
     .events-container {
       display: flex;
@@ -526,7 +526,7 @@ body {
 
   #contacts {
     position: relative;
-    height: 85vh;
+    height: 830px;
 
     .contacts-bg {
       position: absolute;
@@ -734,7 +734,7 @@ body {
 @media screen and (max-width: 1024px) {
   .content-container {
     #options {
-      height: 100vh;
+      height: 920px;
       .option-container {
         .option {
           width: 49%;
@@ -743,7 +743,7 @@ body {
     }
 
     #info {
-      height: 95vh;
+      height: 930px;
 
       .info-container {
         .width-container {
@@ -763,7 +763,7 @@ body {
     }
 
     #news {
-      height: 108vh;
+      height: 1056px;
       .articles {
         .article {
           width: 47%;
@@ -772,6 +772,7 @@ body {
     }
 
     #events {
+      height: 733px;
       .events-container {
         .event {
           .event-1,
@@ -784,7 +785,7 @@ body {
     }
 
     #contacts {
-      height: 125vh;
+      height: 1220px;
       justify-content: space-between;
       .contact {
         width: 47%;
@@ -820,7 +821,7 @@ body {
     }
 
     #options {
-      height: 142vh;
+      height: 1388px;
       .option-container {
         .option {
           width: 100%;
@@ -830,7 +831,7 @@ body {
     }
 
     #info {
-      height: 95vh;
+      height: 930px;
 
       .info-container {
         .width-container {
@@ -850,7 +851,7 @@ body {
     }
 
     #news {
-      height: 175vh;
+      height: 1711px;
       .articles {
         .article {
           width: 100%;
@@ -861,7 +862,7 @@ body {
     }
 
     #events {
-      height: 125vh;
+      height: 1220px;
       .events-container {
         &:nth-last-child(1) .event {
           flex-direction: column-reverse;
@@ -879,7 +880,7 @@ body {
     }
 
     #contacts {
-      height: 170vh;
+      height: 1660px;
       // justify-content: space-evenly;
       .contact {
         width: 100%;
