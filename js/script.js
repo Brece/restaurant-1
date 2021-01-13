@@ -13,13 +13,13 @@ let counter = 1;
 function nextSlide() {
   counter++;
   checkCounter(counter);
-  bgContainer.style.background = `url(../img/bg-${counter}.jpeg) center/cover no-repeat`;
+  bgContainer.style.background = `url(img/bg-${counter}.jpeg) center/cover no-repeat`;
 }
 
 function prevSlide() {
   counter--;
   checkCounter();
-  bgContainer.style.background = `url(../img/bg-${counter}.jpeg) center/cover no-repeat`;
+  bgContainer.style.background = `url(img/bg-${counter}.jpeg) center/cover no-repeat`;
 }
 
 function checkCounter() {
