@@ -13,13 +13,13 @@ let counter = 1;
 function nextSlide() {
   counter++;
   checkCounter(counter);
-  bgContainer.style.background = `url(/img/bg-${counter}.jpeg) center/cover no-repeat`;
+  bgContainer.style.background = `url(../img/bg-${counter}.jpeg) center/cover no-repeat`;
 }
 
 function prevSlide() {
   counter--;
   checkCounter();
-  bgContainer.style.background = `url(/img/bg-${counter}.jpeg) center/cover no-repeat`;
+  bgContainer.style.background = `url(../img/bg-${counter}.jpeg) center/cover no-repeat`;
 }
 
 function checkCounter() {
@@ -33,8 +33,8 @@ function checkCounter() {
 }
 
 // NAVBAR
-var navbar = document.querySelector("#navbar");
-var sticky = navbar.offsetTop;
+let navbar = document.querySelector("#navbar");
+let sticky = navbar.offsetTop;
 
 window.onscroll = function(){
   stickyHeader();

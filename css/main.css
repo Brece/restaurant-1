@@ -104,7 +104,7 @@ body {
       -ms-flex: 1;
           flex: 1;
   height: 100%;
-  background: url(/img/restaurant-logo.jpg) center/cover no-repeat;
+  background: url(../img/restaurant-logo.jpg) center/cover no-repeat;
 }
 
 .content-container header .contacts .socials {
@@ -181,6 +181,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 0 0.5em;
   text-align: center;
   border-bottom: 2px solid transparent;
   -webkit-transition: all 0.5s ease;
@@ -276,7 +277,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/img/bg-1.jpeg) center/cover no-repeat;
+  background: url(../img/bg-1.jpeg) center/cover no-repeat;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -414,15 +415,15 @@ body {
 }
 
 .content-container #options .option-container .opt-1 {
-  background: url("/img/option-1.jpeg") center/cover no-repeat;
+  background: url(../img/option-1.jpeg) center/cover no-repeat;
 }
 
 .content-container #options .option-container .opt-2 {
-  background: url("/img/option-2.jpeg") center/cover no-repeat;
+  background: url(../img/option-2.jpeg) center/cover no-repeat;
 }
 
 .content-container #options .option-container .opt-3 {
-  background: url("/img/option-3.jpeg") center/cover no-repeat;
+  background: url(../img/option-3.jpeg) center/cover no-repeat;
 }
 
 .content-container #options .option-container .option-content {
@@ -503,7 +504,7 @@ body {
       -ms-flex: 1;
           flex: 1;
   height: 50%;
-  background: url(/img/info-1.png) center/contain no-repeat;
+  background: url(../img/info-1.png) center/contain no-repeat;
 }
 
 .content-container #news {
@@ -530,15 +531,15 @@ body {
 }
 
 .content-container #news .articles .article .art-1 {
-  background-image: url(/img/art-1.jpg);
+  background-image: url(../img/art-1.jpg);
 }
 
 .content-container #news .articles .article .art-2 {
-  background-image: url(/img/art-2.jpg);
+  background-image: url(../img/art-2.jpg);
 }
 
 .content-container #news .articles .article .art-3 {
-  background-image: url(/img/art-3.jpeg);
+  background-image: url(../img/art-3.jpeg);
 }
 
 .content-container #events {
@@ -576,14 +577,14 @@ body {
   width: 35%;
   height: 220px;
   border-radius: 5px;
-  background: url(/img/event-1.jpeg) center/cover no-repeat;
+  background: url(../img/event-1.jpeg) center/cover no-repeat;
 }
 
 .content-container #events .events-container .event .event-2 {
   width: 35%;
   height: 220px;
   border-radius: 5px;
-  background: url(/img/event-2.jpeg) center/cover no-repeat;
+  background: url(../img/event-2.jpeg) center/cover no-repeat;
 }
 
 .content-container #events .events-container .event .event-content {
@@ -643,7 +644,7 @@ body {
 }
 
 .content-container #contacts .contacts-bg .contacts-container .booking-bg .booking {
-  background: url(/img/contact-1.jpeg) center/cover no-repeat;
+  background: url(../img/contact-1.jpeg) center/cover no-repeat;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1022,7 +1023,4 @@ body {
     margin: 15px 0;
   }
 }
-
-/* Extra small devices (phones, 600px and down) */
-/* Small devices (portrait tablets and large phones, 600px and up) */
 /*# sourceMappingURL=main.css.map */
